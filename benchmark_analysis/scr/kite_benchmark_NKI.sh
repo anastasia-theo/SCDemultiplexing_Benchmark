@@ -10,7 +10,7 @@
 #SBATCH --mail-type=END,FAIL               # Email notification on job end or fail
 
 # Activate the Conda environment
-source /scistor/informatica/ath100/miniconda3/bin/activate kallisto_bus_env  # Change to your actual Conda environment name
+source /scistor/informatica/ath100/miniconda3/bin/activate kallisto_bus_env  
 
 # Set paths
 

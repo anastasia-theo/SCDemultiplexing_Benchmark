@@ -14,7 +14,7 @@ def extract_umis(fastq_file):
     return umis
 
 # Example usage:
-fastq_file = '/scistor/informatica/ath100/SCDemultiplexing_Benchmark/benchmark_analysis/raw_data/artificial/ground_truth_sequences.fastq'  # Replace with your fastq file path
+fastq_file = '/scistor/informatica/ath100/SCDemultiplexing_Benchmark/benchmark_analysis/raw_data/artificial/ground_truth_sequences.fastq'  
 umis = extract_umis(fastq_file)
 
 # Save the UMIs to a text file
